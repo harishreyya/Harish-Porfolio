@@ -510,7 +510,17 @@ body{
 	display: flex;
 	justify-content: space-between;
 }
-
+.feature-block > h4{
+text-align: center;
+color: #555555;
+font-size: small;
+margin-bottom: 2%;
+}
+.feature-block > li{
+	font-size: small;
+	padding-left: 3%;
+	color: #555555;
+}
 /* lightbox */
 .lightbox{
 	position: fixed;
